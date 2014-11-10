@@ -22,3 +22,4 @@ pages_list:
     Archive: '/archive'
     About: '/about'
     Feed: '/atom.xml'
+images_base_dir: '/public/images'
