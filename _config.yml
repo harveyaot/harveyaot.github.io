@@ -20,6 +20,6 @@ github:
 
 pages_list: 
     Archive: '/archive'
-    About: '/about'
+    Aboutme: '/public/pdf/CV-hewei.pdf'
     Feed: '/atom.xml'
 images_base_dir: '/public/images'
