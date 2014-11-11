@@ -6,7 +6,7 @@ relative_permalinks: true
 title:            Longriver
 tagline:          Life is a long quite river.
 url:              http://blog.longriver.com
-paginate:         1
+paginate:         5
 baseurl:          /
 author:
   name:           Harvey
