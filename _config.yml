@@ -21,6 +21,5 @@ github:
 pages_list: 
     Archive: '/archive'
     Machine Learning: '/ml_cat'
-    #Aboutme: '/public/pdf/CV-hewei.pdf'
     Feed: '/atom.xml'
 images_base_dir: '/public/images'
