@@ -22,5 +22,6 @@ pages_list:
     Archive: '/archive'
     ML: '/ml_cat'
     Coding: '/coding_cat'
+    Thoughts: '/thoughts_cat'
     Feed: '/atom.xml'
 images_base_dir: '/public/images'
