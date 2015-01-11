@@ -4,10 +4,6 @@ title: Archive
 ---
 
 ## Machine Learning Posts
-{% for cat in site.categories %}
-{% if cat == 'ml' %}
-{{ category | last | size }}
-    {% for post in category.last %}
-        *{{ post.date | date:"%d/%m/%Y"}}  &raquo; [{{ post.tile }}] ({{ post.url }})
-{% endif %}
+{% for post in site.categories.ml %}
+        *{{ post.date | date_to_string}}  &raquo; [{{ post.tile }}] ({{ post.url }})
 {% endfor %}
