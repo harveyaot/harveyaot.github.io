@@ -20,6 +20,7 @@ github:
 
 pages_list: 
     Archive: '/archive'
-    Aboutme: '/public/pdf/CV-hewei.pdf'
+    Machine Learning: '/ml_cat'
+    #Aboutme: '/public/pdf/CV-hewei.pdf'
     Feed: '/atom.xml'
 images_base_dir: '/public/images'
