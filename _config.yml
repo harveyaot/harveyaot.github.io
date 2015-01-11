@@ -4,7 +4,7 @@ relative_permalinks: true
 
 # Setup
 title:            Longriver
-tagline:          Life is a long quite river.
+tagline:          
 url:              http://blog.longriver.com
 paginate:         5
 baseurl:          /
