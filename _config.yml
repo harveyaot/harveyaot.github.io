@@ -20,6 +20,7 @@ github:
 
 pages_list: 
     Archive: '/archive'
-    Machine Learning: '/ml_cat'
+    ML: '/ml_cat'
+    Coding: '/coding_cat'
     Feed: '/atom.xml'
 images_base_dir: '/public/images'
