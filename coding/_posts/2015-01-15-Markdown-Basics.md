@@ -37,6 +37,7 @@ Paragraphs in Markdown are just one or more lines of consecutive text followed b
 	  1. Item 1
       1. A corollary to the above item.
       2. Yet another point to consider.
+
     2. Item 2
       * A corollary that does not need to be ordered.
         * This is indented four spaces, because it's two spaces further than the item above.
@@ -49,9 +50,11 @@ Paragraphs in Markdown are just one or more lines of consecutive text followed b
   - Multiple lines
     You can use triple backticks (\`\`\`) to format text as its own distinct block.
 
-    ```
+    ```python
     import sys
+
     import datetime
+
     print "hello world!"
     ```
 	
