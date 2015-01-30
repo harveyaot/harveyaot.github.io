@@ -13,7 +13,7 @@ url: http://blog.longriver.me
 baseurl: 
 
 # This can be '' to hide the Github nav button
-github: 'harveyaot'
+github: 'harveyaot/harveyaot.github.io'
 
 # Set this to your UA-# value, or '' to disable the block completely
 gaaccount: ''
