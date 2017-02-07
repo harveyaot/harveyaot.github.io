@@ -10,7 +10,7 @@ body {
   vertical-align: top;
 }
 
-.navbar .navbar-collapse {
+.navbar .navbar-collapse .navbar-header{
   text-align: center;
 }
 
