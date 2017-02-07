@@ -4,11 +4,12 @@ body {
     font-family: "Microsoft YaHei",Georgia, "Times New Roman", "微软雅黑", STXihei, "华文细黑", serif;
 }
 
-.navbar-header {
-    float: left;
-    padding: 15px;
+.navbar {
     text-align: center;
-    width: 100%;
+}
+
+.navbar-header .navbar-nav{
+    float:none;
 }
 
 .copyright {
