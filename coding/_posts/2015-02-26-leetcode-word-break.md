@@ -2,7 +2,6 @@
 layout: post
 title: wordbreak [leetcode]
 tags : [leetcode]
-language: python
 comments: true
 ---
 
