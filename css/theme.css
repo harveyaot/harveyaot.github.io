@@ -1,12 +1,8 @@
 body {
     padding-top: 60px;
     padding-bottom: 60px;
-    font-family: "Microsoft YaHei",Georgia, "Times New Roman", "微软雅黑", STXihei, "华文细黑", serif;
-    font-size: 16px;
-}
-
-.brand {
-  font-size:20px;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    font-size: 15px;
 }
 
 .copyright {
