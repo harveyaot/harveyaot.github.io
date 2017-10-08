@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 从工作到相亲：无处不在的鄙视链
+title: 走出程序员的自我世界
 comments: true
 ---
 
