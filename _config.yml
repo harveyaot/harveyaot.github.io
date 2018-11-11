@@ -4,7 +4,7 @@ name: LongRiver
 description: Life is a quite long river
 
 # url is currently only used only for the RSS feed in feed.xml
-url: http://blog.longriver.me
+url: http://harveyaot.github.io
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
