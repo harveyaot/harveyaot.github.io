@@ -33,11 +33,12 @@ comments: true
         </div>
       </div>
       <div class="pagination">
-        {% if page.next %}
-        <a class="btn btn-default" href="{{ site.baseurl}}{{ page.next.url }}" class="next">Newer Post</a>
-        {% endif %} {% if page.previous %}
-        <a class="btn btn-default" href="{{ site.baseurl}}{{ page.previous.url }}" class="previous">Older Post</a>
+        {% if page.previous %}
+        <a href="{{ site.baseurl}}{{ page.previous.url }}">Previous:{{ page.previous.title }}</a>
         {% endif %}
+        {% if page.next %}
+        <a href="{{ site.baseurl}}{{ page.next.url }}">Next:{{ page.next.title }}</a>
+        {% endif %} 
       </div>
 
     </div>
