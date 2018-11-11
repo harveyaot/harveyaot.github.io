@@ -33,12 +33,14 @@ comments: true
         </div>
       </div>
       <div class="pagination">
+        <ul>
         {% if page.previous %}
-        <a href="{{ site.baseurl}}{{ page.previous.url }}">Previous:{{ page.previous.title }}</a>
+        <li><a href="{{ site.baseurl}}{{ page.previous.url }}">Previous: {{ page.previous.title }}</a></li>
         {% endif %}
         {% if page.next %}
-        <a href="{{ site.baseurl}}{{ page.next.url }}">Next:{{ page.next.title }}</a>
+        <li><a href="{{ site.baseurl}}{{ page.next.url }}">Next: {{ page.next.title }}</a></li>
         {% endif %} 
+        </ul>
       </div>
 
     </div>
