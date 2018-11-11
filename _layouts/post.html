@@ -17,7 +17,18 @@ comments: true
           <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread">comments</a>
           {% endif %}
           <div class="post-content">
+            <span>{{ page.tags | array_to_sentence_string }}</span>
             {{ content }}
+          </div>
+          <div class="pagination">
+            <ul>
+            {% if page.previous %}
+            <li><a href="{{ site.baseurl}}{{ page.previous.url }}">Previous: {{ page.previous.title }}</a></li>
+            {% endif %}
+            {% if page.next %}
+            <li><a href="{{ site.baseurl}}{{ page.next.url }}">Next: {{ page.next.title }}</a></li>
+            {% endif %} 
+            </ul>
           </div>
           {% if page.comments %}
           <div id="disqus_thread">
@@ -29,18 +40,7 @@ comments: true
             </a>
           </div>
           {% endif %}
-          {{ page.tags | array_to_sentence_string }}
         </div>
-      </div>
-      <div class="pagination">
-        <ul>
-        {% if page.previous %}
-        <li><a href="{{ site.baseurl}}{{ page.previous.url }}">Previous: {{ page.previous.title }}</a></li>
-        {% endif %}
-        {% if page.next %}
-        <li><a href="{{ site.baseurl}}{{ page.next.url }}">Next: {{ page.next.title }}</a></li>
-        {% endif %} 
-        </ul>
       </div>
 
     </div>
