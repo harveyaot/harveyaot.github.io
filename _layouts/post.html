@@ -17,7 +17,11 @@ comments: true
           <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread">comments</a>
           {% endif %}
           <div class="post-content">
-            <span>{{ page.tags | array_to_sentence_string }}</span>
+            <p>
+                {% for tag in page.tags %}
+                    <button type="button" class="btn btn-outline-primary">{{ tag }}</button>
+                {% endfor %}
+            </p>
             {{ content }}
           </div>
           <div class="pagination">

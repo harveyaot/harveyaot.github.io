@@ -2,6 +2,7 @@
 layout: post
 title: Hello World
 comments: true
+tags: [plan, study]
 ---
 Machine Learning, Coding, Thoughts,这三件事是我最常干的事情了，然而一直干的有些糊涂，不够精干，学而不思则罔，思而不学则殆，有些时候是看得多，动手少，有些时候是动手了，却忽略了理论。动手记录可能是我之前最爱偷懒一个环节了，现在有了github，觉得一切变得简单，有趣了不少。
 
