@@ -1,6 +1,6 @@
 ---
 layout: post
-title: word search [leetcode]
+title: Word Search [leetcode]
 categories: [technology]
 tags: [algo]
 comments: true
