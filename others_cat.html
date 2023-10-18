@@ -3,10 +3,12 @@ layout: default
 ---
 
 <div class="well">
-{%for post in site.categories.others%}
-    {% unless post.next %}
+{% assign firstEle = 0 %}
+{%for post in site.categories.others %}
+    {% if firstEle == 0 %}
         <h1>{{ post.date | date: '%Y' }}</h1>
         <ul>
+        {% assign firstEle = 1 %}
     {% else %}
         {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
         {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
@@ -15,7 +17,7 @@ layout: default
             <h1>{{ post.date | date: '%Y' }}</h1>
             <ul>
         {% endif %}
-    {% endunless %}
+    {% endif %}
     <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d" }} - {{ post.title }}</a></li>
 {% endfor %}
 </ul>
