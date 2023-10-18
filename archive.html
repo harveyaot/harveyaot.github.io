@@ -3,10 +3,12 @@ layout: default
 ---
 
 <div class="well">
+{% var firstEle = 0 %}
 {%for post in site.posts %}
-    {% if post.next == nil %}
+    {% if firstEle == 0 %}
         <h1>{{ post.date | date: '%Y' }}</h1>
         <ul>
+        {% set firstEle = 1 %}
     {% else %}
         {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
         {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
