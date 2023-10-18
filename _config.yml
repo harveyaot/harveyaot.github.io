@@ -29,7 +29,7 @@ permalink: /:year/:month/:title
 paginate: 3
 
 highlighter: rouge
-markdown: kramdown
+markdown: GMF
 plugins: ['jekyll-paginate', 'jekyll-gist']
 
 exclude: ['README.md', 'LICENSE']
