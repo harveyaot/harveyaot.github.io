@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Word Search [leetcode]
-categories: [technology]
+categories: [others]
 tags: [algo]
 comments: true
 ---

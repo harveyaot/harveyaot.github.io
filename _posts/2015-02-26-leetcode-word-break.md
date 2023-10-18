@@ -2,6 +2,7 @@
 layout: post
 title: wordbreak [leetcode]
 tags : [leetcode]
+categories: [others]
 comments: true
 ---
 
