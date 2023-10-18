@@ -17,7 +17,7 @@ comments: true
           <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread">comments</a>
           {% endif %}
           <div class="post-content">
-            <div class="btn-group" role="group" aria-label="Basic example"></div>
+            <div class="btn-group" role="group">
               {% for tag in page.tags %}
                   <button type="button" class="btn btn-sm btn-primary" disabled>{{ tag }}</button>
               {% endfor %}
