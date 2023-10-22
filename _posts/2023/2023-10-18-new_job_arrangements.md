@@ -16,11 +16,11 @@ tags: [plan, llm]
 4. About the Azure account, adjust resources.
     - [x] Move the VPN first.
     - [x] the common
-    - [ ] the crawler
+    - [-] the crawler
     - [x] the function part, it's already there
     - [x] the scheduler 
-    - [ ] CMS
-    - [ ] UX
+    - [-] CMS
+    - [-] UX
 
 
 
