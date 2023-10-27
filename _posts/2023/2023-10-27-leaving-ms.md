@@ -4,7 +4,6 @@ title: 跟Paul再次交谈
 comments: false
 categories: [thoughts, life]
 date: 2023-10-27 10:09:00 +08:00
-tags: [thoughts, life]
 ---
 
 时隔半年再次与Paul 交谈，因为马上有走了，还有最后一次1/1，这算是一个非常好的结局。
