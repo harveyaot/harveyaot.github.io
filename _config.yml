@@ -26,7 +26,7 @@ disqus: 'longriver-tech'
 comments: true
 
 permalink: /:year/:month/:title
-paginate: 3
+paginate: 6
 
 highlighter: rouge
 markdown: GMF
