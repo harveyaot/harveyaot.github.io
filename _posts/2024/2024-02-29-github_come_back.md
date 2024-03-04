@@ -18,15 +18,9 @@ Github 账号失而复得，让我非常的开心！再次验证了只要把事�
 
 > Dear Clint:
 > Thank you for your response. I understand that my GitHub account, harveyaot, was suspended due to a fraudulent payment.
-
 > I'd like to explain the situation. In November 2023, I left Microsoft and lost access to my GitHub Copilot employee benefits. I tried to pay for Copilot using my Chinese credit card, but it didn't work. I urgently needed Copilot, so I contacted an agent on Alibaba who could help me pay for it. I paid 65 yuan (about $10) for 1 month (The attached photo is a screenshot of a transaction on Alibaba) and gave the agent my GitHub username and password so they could bind their credit card.
-
 > I was busy with work and didn't think about it again until I found out my GitHub account was suspended.
-
 > After receiving your email, I contacted the agent, but they had delisted their product and deactivated their account. I can't contact them or the credit card provider.
-
 > I sincerely apologize for any inconvenience this may have caused. I implore GitHub to delete my account's payment information and restore access to my account. I am willing to compensate for any losses incurred, as this account is my priceless treasure.
-
 > Copilot is a great product and I would like to continue using it. I would be happy to purchase a subscription through the official channels.
-
 > I hope you can understand my situation and forgive me for my mistake.
